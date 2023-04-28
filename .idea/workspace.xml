@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ef2b20d-84da-4d1a-a873-b0eadb12dcee" name="Changes" comment="Novo projeto de automação com Selenium WebDriver">
+    <list default="true" id="9ef2b20d-84da-4d1a-a873-b0eadb12dcee" name="Changes" comment="Inclusão da validação do cenário &quot;Validar que não é permitido registrar um produto com valor igual a zero&quot; para a página Web Lojinha.">
       <change afterPath="$PROJECT_DIR$/src/test/java/br/com/juliodelima/lojinhaWebAutomacao/modulos/produtos/ProdutosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682675849217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inclusão da validação do cenário &quot;Validar que não é permitido registrar um produto com valor igual a zero&quot; para a página Web Lojinha.">
+      <created>1682699256590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682699256590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Novo projeto de automação com Selenium WebDriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Novo projeto de automação com Selenium WebDriver" />
+    <MESSAGE value="Inclusão da validação do cenário &quot;Validar que não é permitido registrar um produto com valor igual a zero&quot; para a página Web Lojinha." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusão da validação do cenário &quot;Validar que não é permitido registrar um produto com valor igual a zero&quot; para a página Web Lojinha." />
   </component>
 </project>
