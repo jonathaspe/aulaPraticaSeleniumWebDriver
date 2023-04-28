@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ef2b20d-84da-4d1a-a873-b0eadb12dcee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/juliodelima/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/juliodelima/taskit/signup/SignUpTests.java" afterDir="false" />
+    <list default="true" id="9ef2b20d-84da-4d1a-a873-b0eadb12dcee" name="Changes" comment="Novo projeto de automação com Selenium WebDriver">
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/juliodelima/lojinhaWebAutomacao/modulos/produtos/ProdutosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/jonathasf/Desktop/SeleniumWebDriver/aulaPratica/src/test"
+    "last_opened_file_path": "/Users/jonathasf/Desktop/SeleniumWebDriver/aulaPraticaSeleniumWebDriver"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,7 +54,38 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SignUpTests">
+  <component name="RunManager" selected="JUnit.ProdutosTest.testNaoPermitirRegistrarProdutoComValorIgualAZero">
+    <configuration name="ProdutosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aulaPratica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.juliodelima.lojinhaWebAutomacao.modulos.produtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.juliodelima.lojinhaWebAutomacao.modulos.produtos" />
+      <option name="MAIN_CLASS_NAME" value="br.com.juliodelima.lojinhaWebAutomacao.modulos.produtos.ProdutosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutosTest.testNaoPermitirRegistrarProdutoComValorIgualAZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aulaPratica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.juliodelima.lojinhaWebAutomacao.modulos.produtos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.juliodelima.lojinhaWebAutomacao.modulos.produtos" />
+      <option name="MAIN_CLASS_NAME" value="br.com.juliodelima.lojinhaWebAutomacao.modulos.produtos.ProdutosTest" />
+      <option name="METHOD_NAME" value="testNaoPermitirRegistrarProdutoComValorIgualAZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SignUpTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aulaPratica" />
       <extension name="coverage">
@@ -94,6 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProdutosTest.testNaoPermitirRegistrarProdutoComValorIgualAZero" />
+        <item itemvalue="JUnit.ProdutosTest" />
         <item itemvalue="JUnit.SignUpTests" />
         <item itemvalue="JUnit.SignUpTests.testRegistrarUmNovoUsuarioComDadosValidos" />
       </list>
@@ -108,6 +135,29 @@
       <option name="presentableId" value="Default" />
       <updated>1682628178092</updated>
     </task>
+    <task id="LOCAL-00001" summary="Novo projeto de automação com Selenium WebDriver">
+      <created>1682675849216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682675849217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Novo projeto de automação com Selenium WebDriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novo projeto de automação com Selenium WebDriver" />
   </component>
 </project>
